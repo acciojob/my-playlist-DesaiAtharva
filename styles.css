@@ -1,4 +1,42 @@
 /*  your css code here. If applicable */
-h1{
+body{
+	background-color: rgb(204, 204, 204)
+}
+
+
+li{
+	list-style-type:none;	
+	padding-bottom:8px;
+	padding-right:0px;
+}
+
+a{
+	text-decoration-line:none;
+	color:black;
+	text-align:left;
+	
+}
+
+h1 , h2{
 	text-align:center;
+}
+
+.container1{
+	background-color: rgb(255, 255, 255); 
+	border:2px solid black;
+	border-radius:7px;	
+	margin:20px;
+	
+}
+
+.container2{
+	background-color: rgb(255, 255, 255); 
+	border:2px solid black;
+	border-radius:7px;	
+	padding:10px 10px 10px 10px; 
+	margin:20px 50px 20px 50px;
+}
+
+.player_one , .player_two{
+	width:100%;
 }
